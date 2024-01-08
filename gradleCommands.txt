@@ -1,3 +1,5 @@
+Documentation: docs.gradle.org
+
 To see what tasks are available for the project which could be run using gradlew
 ./gradlew tasks
 ./gradlew tasks --all
@@ -17,3 +19,14 @@ java -jar build/libs/JarName.jar
 
 To run the tests
 ./gradlew test
+
+Use only the following commands to accomplish specific tasks
+Aggregate Task (combines multiple specific actions/tasks)
+./gradlew build (to build and test the entire project)
+
+Task to perform specific actions
+./gradlew assemble|jar (just to build project) => Build Artifacts in one command
+./gradlew check|test (just to test project)
+
+To delete build directory and rebuild the entire project
+./gradlew clean
