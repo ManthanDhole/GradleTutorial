@@ -14,3 +14,6 @@ To build the project and create an executable jar file
 To the jar file
 java -jar path/to/jar/JarName.jar
 java -jar build/libs/JarName.jar
+
+To run the tests
+./gradlew test
