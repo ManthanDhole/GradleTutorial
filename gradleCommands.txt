@@ -1,0 +1,16 @@
+To see what tasks are available for the project which could be run using gradlew
+./gradlew tasks
+./gradlew tasks --all
+
+To compile the java files into classes
+./gradlew compileJava
+
+To compile the files present in resources
+./gradlew processResources
+
+To build the project and create an executable jar file
+./gradlew jar
+
+To the jar file
+java -jar path/to/jar/JarName.jar
+java -jar build/libs/JarName.jar
